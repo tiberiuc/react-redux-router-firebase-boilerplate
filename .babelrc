@@ -1,0 +1,21 @@
+{
+  "sourceMaps": true,
+    "presets": [ "es2015","stage-0", "react"],
+    "plugins": [
+      ["transform-decorators-legacy"],
+      ["add-module-exports"]
+    ],
+    "env": {
+      "development": {
+        "plugins": [["react-transform", {
+          "transforms": [{
+            "transform": "react-transform-catch-errors",
+            "imports": [
+              "react",
+              "redbox-react"
+              ]
+          }]
+        }]]
+      }
+    }
+}
