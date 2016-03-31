@@ -1,1 +1,1 @@
-# ScaleApp
+# React Redux Router Firebase boilerplate
