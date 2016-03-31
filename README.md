@@ -1,1 +1,1 @@
-# React Redux Router Firebase boilerplate
+# React Redux Router Firebase Boilerplate
